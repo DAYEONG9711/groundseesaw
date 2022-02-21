@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@media (max-width: 1280px){
+    .s2_main_img {width: 600px; top: 30vh}
+    .s3_main_img {width: 600px; top: 30vh}
+    .s4_main_img {width: 600px; top: 30vh}
+}
+
+@media (max-width: 1023px){
+    header {height: 55px;}
+    header h1 {width: 85px; margin-left: 30px;}
+
+    .gnb_list_w {display: none;}
+
+    .login_w {width: 20%;}
+    .log_target {padding-left: 0; justify-content: center;}
+    .log_target_in {padding-right: 15px;}
+
+    .total_menu_w {width: 20%;}
+    .btn_total {padding-left: 0;}
+    .btn_total_in {display: none;}
+
+    .btn_total:before, .btn_total:after {width: 28px; left: 50%; margin-left: -14px;}
+
+    .total_menu {position: absolute; top: 55px; left: 0; bottom: 0; width: 100%; 
+        height: calc(100% - 155px); overflow: hidden; 
+        /* overflow-y: auto; - 내부에서 스크롤이 되게 (iscroll.js 사용 안할 때)*/}
+    .total_list {position: static;
+        display: block; width: 100%; height: auto; padding-top: 150px;}
+
+    .total_list > li {display: block; position: static; text-align: center; margin-bottom: 35px;
+        padding-top: 0;}
+        
+    .totalMitem {font-size: 25px;}
+    .totalMitem:hover {border-bottom: 2px solid transparent;}
+    .totalMitem.active {border-bottom-color: #fff;}
+    .totalMitem.active + .totalSubitem_w {display: block;}
+    
+    .totalSubitem_w {display: none; padding-top: 0;}
+    .totalSubitem_list {padding-top: 25px;}
+    .totalSubitem {font-size: 16px;}
+
+    .btn_totalClose_w {width: 20%; height: 55px;}
+    .btn_totalClose {padding-left: 0; background: #fff;}
+    .btn_totalClose_in {display: none;}
+
+    .btn_totalClose:before, .btn_totalClose:after {width: 28px; left: 50%; margin-left: -14px; 
+        top: 50px; background: #fe5000;}
+
+    /***** fullpage #s2 *****/
+    #s2 {text-align: center;}
+    .s2_w {margin: 0;}
+    .s2_title {margin-top: 30px;}
+
+    .s2_main_img {width: 500px; margin: auto; position: static;}
+
+    .s2_desc {margin-top: 3vh;}
+    .s2_cont p {margin-bottom: 10px;}
+
+    .s2_btns {margin-top: 15px;}
+
+    /***** fullpage #s3 *****/
+    #s3 {text-align: center;}
+    .s3_w {margin: 0;}
+    .s3_title {margin-top: 30px;}
+
+    .s3_main_img {width: 500px; margin: auto; position: static;}
+
+    .s3_desc {margin-top: 3vh;}
+    .s3_cont p {margin-bottom: 10px;}
+
+    .s3_btns {margin-top: 15px;}
+
+    /***** fullpage #s4 *****/
+    #s4 {text-align: center;}
+    .s4_w {margin: 0;}
+    .s4_title {margin-top: 30px;}
+
+    .s4_main_img {width: 500px; margin: auto; position: static;}
+
+    .s4_desc {margin-top: 3vh;}
+    .s4_cont p {margin-bottom: 10px;}
+
+    .s4_btns {margin-top: 15px;}
+
+    /***** fullpage #s5 *****/
+    .s5_w p {font-size: 45px;}
+
+    /***** footer #s6 *****/
+    #s6 {background: #222; color: #fff;}
+    .f_wrap {height: 350px;}
+    .f_top {height: 100px;}
+
+    .f_list {position: absolute; top: 20px; left: 50%; transform: translate(-50%);
+        margin-left: 20px;}
+
+    .f_sns {position: absolute; top: 60px; right: 50%; transform: translate(50%);
+        padding-left: 25px; width: 175px;}
+
+    .address {position: absolute; top: 30px; left: 50%; transform: translate(-50%);}
+    .address p {font-size: 14px; text-align: center;}
+
+    .f_logo {position: absolute; top: 165px; right: 50%; transform: translate(50%)}
+
+    /***** #arrow 페이지 다운, 업 *****/
+    #arrow {bottom: -20px; right: 0;}
+
+    .prevS, .nextS {transform: scale(0.7); margin-bottom: 20px;}
+}
